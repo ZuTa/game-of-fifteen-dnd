@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+
+body {
+  font: 14px/1 sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  min-height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.footer {
+  bottom: 0;
+  height: 75px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.footer a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.game {
+  display: inline-block;
+}
+
+.dimension {
+  margin: 10px;
+}
+
+.dimension .selector {
+  margin-left: 5px;
+}
+
+.row {
+  display: block;
+}
+
+.tile {
+  background-color: #ccccff;
+  border-radius: 24px;
+  border: 2px solid #391326;
+  display: inline-block;
+  height: 24px;
+  margin: 2px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 24px;
+  opacity: 0.75;
+}
+
+.empty-tile {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.empty-tile-over {
+  border-color: #9999ff;
+}
+
+.value {
+  font-size: 24px;
+  color: #4c1a33;
+}
+
+.moveable {
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.dragging {
+  opacity: .1 !important;
+}
+
+.moveable:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.winner {
+  margin: 10px;
+  color: green;
+}
+
+.restart {
+  margin-left: 5px;
+}
